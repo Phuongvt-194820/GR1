@@ -1,0 +1,129 @@
+.content{
+    width: calc(100% - 285px);
+    /* background-color: red; */
+    height: 100%;
+    font-size: 18px;
+}
+
+.header_content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #ccc;
+}
+
+h3{
+    color: red;
+    font: Times;
+    font-size: 14px;
+}
+
+.main_content{
+    width: 95%;
+}
+
+.subheader_content{
+    display: flex;
+    border-bottom: 4px solid #ff9900;
+    width: 95%;
+    color: red;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sub_content{
+    display: flex;
+    border-bottom: 4px solid #ff9900;
+    width: 95%;
+    color: red;
+}
+
+.sub_content a i{
+    padding-left: 20px;
+    font-size: 30px;
+}
+
+.student_info, .individual_info, .study_info{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    line-height: 30px;
+}
+
+.student_info1 img{
+    width: 200px;
+    height: 290px;
+    box-shadow: 8px 8px rgba(0,0,0,0.1);
+}
+
+.label_info{
+    font-style: italic;
+    font:Times;
+    font-size: 16px;
+}
+
+.infor-value{
+    font-weight: bold;
+    font:Times;
+    font-size: 16px;
+}
+
+.study1{
+    flex :1;
+    margin-left: 90px;
+}
+
+.study2{
+    flex :1;
+    margin-left: 40px;
+}
+
+
+.info1{
+    flex :1;
+    margin-left: 90px;
+}
+
+.info2{
+    flex :1;
+    margin-left: 40px;
+}
+
+.footer_main_edit{
+    align-items: center;
+    margin-top: 70px;
+    margin-left: 450px;
+}
+.footer_main_edit .submit{
+    display: flex;
+    text-align: center;
+}
+
+.confirm{
+    color: red;
+    font-size: 25px;
+    margin-left: 150px;
+}
+
+.content ::placeholder{
+    font-size: 15px;
+    color: black;
+    /* font-weight: bold; */
+}
+
+.my-button {
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    margin: 4px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 70px;
+    background-color: var(--header-title-color);
+}
+
+
+
