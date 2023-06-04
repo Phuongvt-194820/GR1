@@ -1,0 +1,27 @@
+@import url(../assets/font/fontawesome-5.15.1/css/all.min.css);
+@import url(../css/components/content.css);
+@import url(../css/components/footer.css);
+@import url(../css/components/header.css);
+@import url(../css/components/sidebar.css);
+@import url(../css/components/info.css);
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+}
+.main{
+    width: 100%;
+    /* height: calc(100vh - 150px); */
+    display: flex;
+    margin-top: 50px ;
+}
+
+:root{
+    --header-color: #9c1010;
+    --header-title-color: #8c1515;
+    --sidebar-box-color: #f2f1eb;
+    --sidebar-text-color: #337ab7;
+}
+.list-decoration{
+    list-style-type: none;
+}

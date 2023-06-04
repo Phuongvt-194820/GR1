@@ -1,0 +1,70 @@
+.rebin{
+    height: 32px !important;
+    width: 32px !important;
+    text-align: center;
+}
+
+.rebin button{
+    height: 100%;
+}
+
+.rebin img{
+    height: 100%;
+}
+
+.field{
+    width: 600px;
+    margin-bottom: 16px;
+    display: flex;  
+}
+
+.input{
+    display: flex;
+    float: right;
+}
+
+.del{
+    height: 32px;
+}
+
+.del img{
+    height: 100%;
+    margin: 0 20px;
+}
+
+.pdf{
+    height: 32px;
+}
+
+.pdf img{
+    height: 100%;
+}
+
+#nameContent{
+    width: 210px;
+    display: flex;
+    margin: auto;
+}
+
+.inputLabelGr{
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 300px;
+}
+
+
+
+.labelfield{
+    height: 160px;
+    width: 10px;
+    display: inline-block;
+}
+
+.fieldname{
+    width: 160px;
+}
+
+.fieldnameInput[disabled] {
+    border: solid 1px black !important;
+    background-color: #ebdada;
+}

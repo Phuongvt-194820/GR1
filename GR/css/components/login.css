@@ -24,7 +24,7 @@ h1{
     color: var(--sp-white);
     letter-spacing: 7px;
     margin-block-start: 0px;
-    /* margin: 65px 0; */
+    padding-top: 65px;
 }
 
 .login-title{
@@ -35,10 +35,99 @@ h1{
 }
 
 h2 {
+    text-align: center;
     font-size: 35px;
     font-weight: 300;
     margin-bottom: 30px;
     color: #fff;
     text-transform: uppercase;
+}
+
+input[type="text"], input[type="password"], input[type="email"] {
+    width: 84%;
+    padding: 15px 10px 15px;
+    font-size: 14px;
+    background: transparent;
+    border: 2px solid #537b35;
+    outline: none;
+    margin-bottom: 26px;
+    margin-left: 10px;
+    color:#fff;
+}
+
+input[type="text"]{
+	background: url("../../assets/img/user.png") no-repeat 382px 11px;
+	background-size: 25px;
+}
+
+input[type="email"] {
+	background: url("../../assets/img/e-mail.png") no-repeat 382px 11px;
+	background-size: 25px;
+}
+
+input[type="password"] {
+	background: url("../../assets/img/password.png") no-repeat 382px 11px;
+	background-size: 25px;
+}
+
+.otherfunction{
+    list-style: none;
+    width: 84%;
+    margin-bottom: 40px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+input[type="checkbox"]{
+    display: none;
+}
+
+.otherfunction li input[type="checkbox"]+label{
+    /* padding-left: 50px; */
+    display: inline-block;
+    font-size: 18px;
+}
+
+.otherfunction li span:first-child{
+    display: inline-block;
+    border: 2px solid #537b35;
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+    margin-bottom: -2px;
+}
+
+.otherfunction li input[type="checkbox"]:checked+label span:first-child:before{
+    display: inline-block;
+    content: "";
+    background: url(../../assets/img/tick.png) no-repeat;
+    width: 10px;
+    height: 10px;
+    padding-top: 4px;
+}
+
+.otherfunction a{
+    text-decoration: none;
+    float: right;
+    margin-right: 40px;
+    color: #fff;
+    font-size: 18px;
+}
+
+.otherfunction a:hover{
+    color: var(--sp-checkbox);
+}
+
+input[type="submit"]{
+    font-size: 20px;
+    background-color: var(--sp-checkbox);
+    padding: 10px 65px;
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    color: #537b35;
+    background-color: #fff;
 }
 
