@@ -43,7 +43,7 @@ h2 {
     text-transform: uppercase;
 }
 
-input[type="text"], input[type="password"], input[type="email"] {
+.login-title input[type="text"], input[type="password"], input[type="email"] {
     width: 84%;
     padding: 15px 10px 15px;
     font-size: 14px;
@@ -55,17 +55,17 @@ input[type="text"], input[type="password"], input[type="email"] {
     color:#fff;
 }
 
-input[type="text"]{
+.login-title input[type="text"]{
 	background: url("../../assets/img/user.png") no-repeat 382px 11px;
 	background-size: 25px;
 }
 
-input[type="email"] {
+.login-title input[type="email"] {
 	background: url("../../assets/img/e-mail.png") no-repeat 382px 11px;
 	background-size: 25px;
 }
 
-input[type="password"] {
+.login-title input[type="password"] {
 	background: url("../../assets/img/password.png") no-repeat 382px 11px;
 	background-size: 25px;
 }
@@ -109,7 +109,7 @@ input[type="checkbox"]{
 .otherfunction a{
     text-decoration: none;
     float: right;
-    margin-right: 40px;
+    /* margin-right: 0px; */
     color: #fff;
     font-size: 18px;
 }
@@ -131,3 +131,27 @@ input[type="submit"]:hover{
     background-color: #fff;
 }
 
+.send-button {
+    text-align: center;
+    margin-top: 40px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+
+/* .send-button p a span{
+    font-size: 18px;
+} */
+
+.send-button a{
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+}
+.send-button p a:hover{
+    color: var(--sp-checkbox);
+    border: 1px solid #537b35;
+}
+
+.send-button input{
+    padding-left: 50px;
+}

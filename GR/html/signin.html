@@ -14,8 +14,24 @@
         <div class="login-title">
             <h2>Login here</h2>
             <form action="#" method="post">
-                <input type="email" Name="Username" placeholder="EMAIL" required="">
-                <input type="password" Name="Password" placeholder="PASSWORD" required="">
+                <div class="input-field">
+                    <div>
+                        <input id="idUser" type="email" Name="Username" placeholder="EMAIL" required="">
+                    </div>
+                    <div class="validate">
+                        <span id="user-validate"></span>
+                    </div>
+                </div>
+                <div class="input-field">
+                    <div>
+                        <input id="idPass" type="password" Name="Password" placeholder="PASSWORD" required="">
+                    </div>
+                    <div class="validate">
+                        <span id="pass-validate"></span>
+                    </div>
+                </div>
+                <!-- <input id="idUser" type="email" Name="Username" placeholder="EMAIL" required="">
+                <input id="idPass" type="password" Name="Password" placeholder="PASSWORD" required=""> -->
                 <ul class="otherfunction">
                     <li>
                         <input type="checkbox" id="brand1" value="">
@@ -24,7 +40,7 @@
                     </li>
                 </ul>
                 <div class="send-button">
-                    <input type="submit" value="LOGIN">
+                    <input id="idSignIn" type="submit" value="LOGIN">
                     <p> To register new account <span>→</span> <a class="send" href="./signup.html"> Click Here</a></p>
                     <div class="clear"></div>
                 </div>
