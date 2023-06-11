@@ -14,27 +14,38 @@
             <h3>Register Form</h3>
             <form action="#" method="post">
                 <div class="sub-form">
+                    <label for="">Họ và Tên: </label>
                     <input placeholder="User Name" type="text" required="">
                 </div>
                 <div class="sub-form">
-                    <select name="" id="selectRole" placeholder="Position" required="">
-                        <option value="Ban Quản Lý"></option>
-                        <option value="Thành viên">Thành viên</option>
-                    </select>
-                </div>
-                <div class="sub-form">
+                    <label for="">Email: </label>
                     <input placeholder="Email" class="mail" type="email" required="">
                 </div>
                 <div class="sub-form">
-                    <input placeholder="Password" type="password" required="">
+                    <label for="">Password: </label>
+                    <input id="pass-regis" placeholder="Password" type="password" required="">
                 </div>
                 <div class="sub-form">
-                    <input placeholder="Confirm Password" type="password" required="">
+                    <label for="">Confirm Password: </label>
+                    <input id="pass-confirm" placeholder="Confirm Password" type="password" required="">
+                </div>
+                <div class="sub-form">
+                    <label for="">Chức vụ: </label>
+                    <select name="" id="selectRole" placeholder="Position" required="">
+                        <option value="Ban Quản Lý">Ban Quản Lý</option>
+                        <option value="Thành viên">Thành viên</option>
+                    </select>
                 </div>
                 <div class="submit-regis">
-                    <input type="submit"value="Register">
+                    <button id="idSignUp" class="btn-submit">Register</button>
+                    <!-- <input id="idSignUp" type="submit" value="Register"> -->
                 </div>
             </form>
         </div>
     </div>
 </body>
+<!-- thư viện js -->
+<script src="../js/jquery.js"></script>
+<!-- js dành riêng cho page -->
+<script src="../js/page/signup.js"></script>
+</html>

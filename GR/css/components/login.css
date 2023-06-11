@@ -43,7 +43,7 @@ h2 {
     text-transform: uppercase;
 }
 
-.login-title input[type="text"], input[type="password"], input[type="email"] {
+.input-field input[type="text"], input[type="password"], input[type="email"] {
     width: 84%;
     padding: 15px 10px 15px;
     font-size: 14px;
@@ -55,17 +55,17 @@ h2 {
     color:#fff;
 }
 
-.login-title input[type="text"]{
+.input-field input[type="text"]{
 	background: url("../../assets/img/user.png") no-repeat 382px 11px;
 	background-size: 25px;
 }
 
-.login-title input[type="email"] {
+.input-field input[type="email"] {
 	background: url("../../assets/img/e-mail.png") no-repeat 382px 11px;
 	background-size: 25px;
 }
 
-.login-title input[type="password"] {
+.input-field input[type="password"] {
 	background: url("../../assets/img/password.png") no-repeat 382px 11px;
 	background-size: 25px;
 }
@@ -75,7 +75,7 @@ h2 {
     width: 84%;
     margin-bottom: 40px;
     text-align: left;
-    padding-left: 10px;
+    padding-left: 39px;
 }
 
 input[type="checkbox"]{
@@ -118,15 +118,16 @@ input[type="checkbox"]{
     color: var(--sp-checkbox);
 }
 
-input[type="submit"]{
+.send-button .btn-submit{
     font-size: 20px;
     background-color: var(--sp-checkbox);
     padding: 10px 65px;
     color: #fff;
     cursor: pointer;
+    text-align: center;
 }
 
-input[type="submit"]:hover{
+.btn-submit:hover{
     color: #537b35;
     background-color: #fff;
 }

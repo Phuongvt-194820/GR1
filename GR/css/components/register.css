@@ -30,6 +30,12 @@ h3{
     padding: 30px;
 }
 
+.sub-form label{
+    padding: 15px 40px 15px;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
 .sub-form input[type="text"], input[type="password"], input[type="email"], select[type="text"], select{
     width: 84%;
     padding: 15px 10px 15px;
@@ -59,4 +65,17 @@ h3{
 
 .submit-regis{
     text-align: center;
+}
+
+.submit-regis .btn-submit{
+    font-size: 20px;
+    background-color: var(--sp-checkbox);
+    padding: 10px 65px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btn-submit:hover{
+    color: #537b35;
+    background-color: #fff;
 }
