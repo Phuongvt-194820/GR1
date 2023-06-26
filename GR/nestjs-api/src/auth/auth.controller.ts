@@ -10,16 +10,16 @@ class TodayResponse {
 @ApiTags('Today')
 @Controller('auth')
 
-class CreateUserDto{
-    @ApiProperty()
-    name: string;
+// class CreateUserDto{
+//     @ApiProperty()
+//     name: string;
 
-    @ApiProperty()
-    age: number;
+//     @ApiProperty()
+//     age: number;
 
-    @ApiProperty()
-    email: string;
-}
+//     @ApiProperty()
+//     email: string;
+// }
 
 export class AuthController{
     //auth service is automatically created when initializing the controller
@@ -29,10 +29,11 @@ export class AuthController{
     //some requests from client
     //POST: .../auth/register
     @Post("/register") //register a new user
-    register(@Body() registrationData: any){
+    register(
+        @Body('email') email:string,
+        @Body('password') password:string,){
         return{
             message: "Register an user",
-            data: registrationData,
         }
     }
     //POST: .../auth/login
