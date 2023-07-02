@@ -1,10 +1,10 @@
 $(document).ready(function() {
 
-    $ajax({
-        type: "GET",
-        url: "http://localhost:3000/auth/login",
+    // $ajax({
+    //     type: "GET",
+    //     url: "http://localhost:3000/auth/login",
         
-    })
+    // })
 
     
     // on click Sign In Button checks that username =='admin@gmail.com' and password == 'password'
