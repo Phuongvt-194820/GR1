@@ -13,7 +13,7 @@ export class UpdateUserDto {
   
     @IsOptional()
     @IsNumber()
-    readonly phoneNumber: number;
+    readonly phone: number;
   
     @IsOptional()
     @IsEnum(Category, { message: 'Please enter correct position.' })

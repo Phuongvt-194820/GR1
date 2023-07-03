@@ -41,7 +41,7 @@ export class MemberService {
             return res;
         }
 
-        async findById(id: string): Promise<Member> {
+    async findById(id: string): Promise<Member> {
         const isValidId = mongoose.isValidObjectId(id);
 
         if (!isValidId) {

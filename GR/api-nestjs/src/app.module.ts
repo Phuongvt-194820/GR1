@@ -10,7 +10,7 @@ import { AuthModule } from './auth/auth.module';
       envFilePath: '.env',
       isGlobal: true,
     }),
-    MongooseModule.forRoot('mongodb://localhost:27017/mydatabase'),
+    MongooseModule.forRoot('mongodb://127.0.0.1:27017/mydatabase'),
     MemberModule,
     AuthModule,
   ],

@@ -13,7 +13,7 @@ export class CreateUserDto {
   
     @IsNotEmpty()
     @IsNumber()
-    readonly phoneNumber: number;
+    readonly phone: number;
   
     @IsNotEmpty()
     @IsEnum(Category, { message: 'Please enter correct position.' })

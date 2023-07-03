@@ -3,7 +3,7 @@ import mongoose from 'mongoose';
 import { User } from '../../auth/schemas/user.schema';
 
 export enum Category {
-  ADVENTURE = 'Adventure',
+  MEMBER ='Member',
   ADMIN = "Admin",
 
 }
@@ -19,7 +19,7 @@ export class Member {
   email: string;
 
   @Prop()
-  phoneNumber: number;
+  phone: number;
 
   @Prop()
   category: Category;
