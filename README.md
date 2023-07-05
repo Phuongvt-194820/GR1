@@ -24,3 +24,11 @@ Installation was successful, but when I am trying to create new project via cli 
 #### `nest new nestjs-api`
 Then run with:
 #### `npm run start`
+
+## About MongoDB
+You can download MongoDB using the following link: [https://www.mongodb.com/try/download/community](https://www.mongodb.com/try/download/community).\
+When the installation is complete, you run MongoDB concurrently when running nestjs.
+
+## About Issue when running web
+When you choose Login, you have error: account failed to login, stay in page signin.html and call POST method here. The problem could be having trouble with calling the API or needing to pass data in. 
+
